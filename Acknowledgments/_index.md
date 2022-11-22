@@ -11,7 +11,8 @@ IETF QUIC工作组接收到了来自许多人员的大量支持。
 
 The compression design team did substantial work exploring the problem space and influencing the initial draft version of this document. The contributions of design team members Roberto Peon, Martin Thomson, and Dmitri Tikhonov are gratefully acknowledged.
 
-压缩设计团队在探索问题和影响本文档的初版草案方面进行了大量工作。在此郑重致谢设计团队成员Roberto Peon、Martin Thomson和Dmitri Tikhonov的贡献。
+压缩设计团队在探索问题和影响本文档的初版草案方面进行了大量工作。
+在此郑重致谢设计团队成员Roberto Peon、Martin Thomson和Dmitri Tikhonov的贡献。
 
 The following people also provided substantial contributions to this document:
 
@@ -37,7 +38,8 @@ The following people also provided substantial contributions to this document:
 
 This document draws heavily on the text of [RFC7541]. The indirect input of those authors is also gratefully acknowledged.
 
-本文档大量借鉴了《[RFC7541]()》的内容。郑重致谢其作者的间接贡献。
+本文档大量借鉴了《[RFC7541]()》的内容。
+郑重致谢其作者的间接贡献。
 
 Buck Krasic's contribution was supported by Google during his employment there.
 

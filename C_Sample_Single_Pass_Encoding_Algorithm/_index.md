@@ -53,7 +53,7 @@ for line in fieldLines:
 
   dynamicIndex = dynamicTable.findIndex(line)
   if dynamicIndex is None:
-    # 没有匹配的条目。要么插入条目并引用索引，要么编码为明文
+    # 没有匹配的条目，要么插入条目并引用索引，要么编码为明文
     # No matching entry.  Either insert+index or encode literal
     staticNameIndex = staticTable.findName(line.name)
     if staticNameIndex is None:
