@@ -17,9 +17,9 @@ This is possible even over the Transport Layer Security Protocol ([TLS]) and the
 
 即便底层是传输层安全协议（详见《[TLS]()》）和QUIC传输协议（详见《[QUIC传输]()》），这种做法也是可行的，因为尽管TLS和QUIC为其内容提供可信度保护，但是它们为内容的长度信息提供的保护却有限。
 
-    Note: Padding schemes only provide limited protection against an attacker with these capabilities, potentially only forcing an increased number of guesses to learn the length associated with a given guess. Padding schemes also work directly against compression by increasing the number of bits that are transmitted.
+> Note: Padding schemes only provide limited protection against an attacker with these capabilities, potentially only forcing an increased number of guesses to learn the length associated with a given guess. Padding schemes also work directly against compression by increasing the number of bits that are transmitted.
 
-    注意：面对具有上述能力的攻击者，填充的策略只能提供有限的保护，最多就是增加攻击者为了判断某次猜测所对应的长度所需的尝试次数。填充还会因为增加传输数据量而与压缩的目的背道而驰。
+> 注意：面对具有上述能力的攻击者，填充的策略只能提供有限的保护，最多就是增加攻击者为了判断某次猜测所对应的长度所需的尝试次数。填充还会因为增加传输数据量而与压缩的目的背道而驰。
 
 Attacks like CRIME ([CRIME]) demonstrated the existence of these general attacker capabilities. The specific attack exploited the fact that DEFLATE ([RFC1951]) removes redundancy based on prefix matching. This permitted the attacker to confirm guesses a character at a time, reducing an exponential-time attack into a linear-time attack.
 
