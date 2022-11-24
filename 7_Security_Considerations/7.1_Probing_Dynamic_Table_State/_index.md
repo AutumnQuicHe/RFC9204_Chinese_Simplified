@@ -18,7 +18,7 @@ The compression context used to encode header and trailer fields can be probed b
 
 This is possible even over the Transport Layer Security Protocol ([TLS]) and the QUIC Transport Protocol ([QUIC-TRANSPORT]), because while TLS and QUIC provide confidentiality protection for content, they only provide a limited amount of protection for the length of that content.
 
-即便底层是传输层安全协议（详见《[TLS]()》）和QUIC传输协议（详见《[QUIC传输]()》），这种做法也是可行的，因为尽管TLS和QUIC为其内容提供可信度保护，但是它们为内容的长度信息提供的保护却有限。
+即便底层是传输层安全协议（详见《[TLS](https://www.rfc-editor.org/info/rfc8446)》）和QUIC传输协议（详见《[QUIC传输](../RFC9000_Chinese_Simplified)》），这种做法也是可行的，因为尽管TLS和QUIC为其内容提供可信度保护，但是它们为内容的长度信息提供的保护却有限。
 
 > Note: Padding schemes only provide limited protection against an attacker with these capabilities, potentially only forcing an increased number of guesses to learn the length associated with a given guess. Padding schemes also work directly against compression by increasing the number of bits that are transmitted.
 
@@ -27,6 +27,6 @@ This is possible even over the Transport Layer Security Protocol ([TLS]) and the
 
 Attacks like CRIME ([CRIME]) demonstrated the existence of these general attacker capabilities. The specific attack exploited the fact that DEFLATE ([RFC1951]) removes redundancy based on prefix matching. This permitted the attacker to confirm guesses a character at a time, reducing an exponential-time attack into a linear-time attack.
 
-形如CRIME（详见《[CRIME]()》）的攻击说明了此类常见的攻击能力的可行性。
-特定的攻击还会利用DEFLATE（详见《[RFC1951]()》)基于前缀匹配来降低冗余的事实。
+形如CRIME（详见《[CRIME](http://en.wikipedia.org/w/index.php?title=CRIME&oldid=660948120)》）的攻击说明了此类常见的攻击能力的可行性。
+特定的攻击还会利用DEFLATE（详见《[RFC1951](https://www.rfc-editor.org/info/rfc1951)》)基于前缀匹配来降低冗余的事实。
 这使得攻击者能够一次验证对一个字符的猜测，将需要指数时间的攻击降低为线性时间。

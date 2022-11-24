@@ -38,7 +38,7 @@ The following people also provided substantial contributions to this document:
 
 This document draws heavily on the text of [RFC7541]. The indirect input of those authors is also gratefully acknowledged.
 
-本文档大量借鉴了《[RFC7541]()》的内容。
+本文档大量借鉴了《[RFC7541](https://www.rfc-editor.org/info/rfc7541)》的内容。
 郑重致谢其作者的间接贡献。
 
 Buck Krasic's contribution was supported by Google during his employment there.
