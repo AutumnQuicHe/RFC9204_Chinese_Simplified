@@ -11,4 +11,7 @@ Each encoded field section is prefixed with two integers. The Required Insert Co
 使用[第4.5.1.1章]()中的编码方法，插入计数下限被编码为一个8位前缀整型。
 基点被编码为一个信号比特位（`S`）和一个7位前缀整型的“基点差值”；详见[第4.5.1.2章]()。
 
-TODO: Figure 12: Encoded Field Section
+{{< block_img
+indx="Figure_12_Encoded_Field_Section"
+title="图12：编码字段组"
+src="/RFC9204_Chinese_Simplified/images/Figure_12_Encoded_Field_Section.svg" >}}

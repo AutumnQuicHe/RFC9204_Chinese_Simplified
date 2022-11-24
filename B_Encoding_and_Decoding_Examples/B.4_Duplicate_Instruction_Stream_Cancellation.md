@@ -11,4 +11,6 @@ The encoder duplicates an existing entry in the dynamic table, then sends an enc
 携带着编码流数据的数据包受到延误。
 在送达该数据包前，解码器取消了流，并通知编码器它没有对编码字段组进行处理。
 
-TODO: 图示
+{{< block_img
+indx="Pseudocode_b_4"
+src="/RFC9204_Chinese_Simplified/images/Pseudocode_b_4.svg" >}}

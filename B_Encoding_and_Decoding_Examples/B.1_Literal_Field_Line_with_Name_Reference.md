@@ -9,4 +9,6 @@ The encoder sends an encoded field section containing a literal representation o
 
 编码器发送了一个编码字段组，其中包含着使用了静态索引名称的明文字段行。
 
-TODO: 图示
+{{< block_img
+indx="Pseudocode_b_1"
+src="/RFC9204_Chinese_Simplified/images/Pseudocode_b_1.svg" >}}

@@ -11,4 +11,6 @@ The encoder inserts a header into the dynamic table with a literal name. The dec
 解码器确认接收到该条目。
 编码器没有发送任何编码字段组。
 
-TODO: 图示
+{{< block_img
+indx="Pseudocode_b_3"
+src="/RFC9204_Chinese_Simplified/images/Pseudocode_b_3.svg" >}}
