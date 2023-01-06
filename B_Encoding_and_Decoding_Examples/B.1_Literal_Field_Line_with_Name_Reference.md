@@ -5,8 +5,6 @@ weight: 11100
 rank: "h2"
 ---
 
-The encoder sends an encoded field section containing a literal representation of a field with a static name reference.
-
 编码器发送了一个编码字段组，其中包含着使用了静态索引名称的明文字段行。
 
 {{< block_img

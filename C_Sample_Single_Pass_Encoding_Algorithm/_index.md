@@ -5,8 +5,6 @@ weight: 12000
 rank: "h1"
 ---
 
-Pseudocode for single-pass encoding, excluding handling of duplicates, non-blocking mode, available encoder stream flow control and reference tracking.
-
 单通编码的伪代码，其中不包含对复制、非阻塞模式、编码器流的流量控制，以及引用追踪的处理。
 
 {{% block_ref
