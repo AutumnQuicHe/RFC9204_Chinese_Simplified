@@ -1,5 +1,5 @@
 ---
-title: "RFC9204 QPACK：HTTP/3头部字段压缩"
+title: "RFC9204 QPACK：HTTP/3字段压缩"
 anchor: "RFC9204_QPACK_Field_Compression_for_HTTP_3"
 weight: 1
 ---
